@@ -1,0 +1,80 @@
+/* Navigation - Component: */
+.navigation-component {
+    /* Minimum - Sizing: */
+    min-height: 8vh;
+
+    position: fixed;
+
+    /* Display: */
+    display: flex;
+    background-color: rgb(11, 11, 11);
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 5;
+
+    /* Sizing: */
+    width: 100%;
+}
+.logo{
+    height: 60px;
+    padding: 12px;
+    padding-left: 50px;
+    
+}
+/* Title: */
+.navigation-component__title {
+    /* Font - Size: */
+    font-size: 25px;
+    
+    color: #ffd000;
+
+    flex: 1;
+}
+
+/* Links: */
+.navigation-component__links {
+    /* Display: */
+    display: flex;
+
+    justify-content: space-evenly;
+
+    gap: 2vw;
+
+    /* Margins: */
+    margin-right: 1.5rem;
+    
+}
+
+.navigation-component__links li {
+    /* List - Style: */
+    list-style: none;
+    
+}
+
+.navigation-component__links li a {
+    /* Text - Decoration: */
+    text-decoration: none;
+    text-align: center;
+
+    
+    /* Font - Size: */
+    font-size: 20px;
+
+    margin-right: 1.5vw;
+    
+    /* Color: */
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 15px;
+}
+
+.navigation-component__links li a:hover {
+    text-align: center;
+    transition: 0.3s;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+

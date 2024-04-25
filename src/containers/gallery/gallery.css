@@ -1,0 +1,30 @@
+@import "react-image-gallery/styles/css/image-gallery.css";
+
+
+.gallery-container {
+  
+
+  min-height: 90%;
+  width: 100%;
+  background-color: #ffffff;
+  transition: 1.5s;
+  
+  
+
+}
+
+
+
+.gallery-container-active{
+  
+  background-color: #000000
+  
+  
+
+}
+
+.gallery-image {
+  height: 105%;
+  padding-top: 5%;
+  
+}
